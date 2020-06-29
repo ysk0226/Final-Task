@@ -1,12 +1,56 @@
 /* ------->common */
-
+/* body{
+    font-family: ;
+} */
 /* <-------common */
 
 /* ------->header */
-header{
-    background-color: black;
+
+header {
+    background-color: rgba(0, 0, 0, 0.500000); 
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    z-index: 99;
+    vertical-align: middle;
+}
+/*  logo */
+
+/* logo */
+header a {
+    color:white;
+}
+header a:hover {
+    color:#999999;
+}
+.navbar-item {
+    display:inline-block;
 }
 
+/* dropdown */
+.dropdown-menu {
+    background-color: black; 
+}
+.dropdown-menu a:hover {
+    background-color:#442606;
+    color: #ffffff;
+}
+.dropdown-item {
+    font-size: 14px;
+    color: #fcfdfd;
+    width: 220px;
+    padding:17px 18px;
+    display: block;
+
+
+} 
+/* .navbar-toggler-icon {
+    
+} */
+/* dropdown */
 /* ------->main */
 
 /* <-------main */
